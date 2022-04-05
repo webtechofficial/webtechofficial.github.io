@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <a href="index.html">home</a>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>registration form. </title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <a href="fontawaresome"></a>
+  <style>
+      *{
+      padding:0;
+      margin: 0;
+      box-sizing: border-box;
+      border: 2px 20px solid rgb(77, 77, 64);
+    }
+    body{
+        background-color: rgb(1,51,51);
+    }
+       .wrapper{
+           padding: 0px;
+           margin: 0px;
+       }
+       .wrapper form .container h2, p{
+           padding: 5px;
+           color: rgb(164, 164, 199);
+           font-size: larger;
+       }
+       .wrapper form .container {
+           color: gold;
+           padding: 15px;
+           font-family: Georgia, 'Times New Roman', Times, serif;
+           font-size: 15px;
+           margin: 3px;
+           text-align: left;
+           
+
+
+       }
+       .wrapper form .container .form label{
+           padding: 0px;
+           text-align: center;
+           display: flex;
+       }
+       .wrapper form .container .form input{
+           padding-left: 40px;
+           text-align: center;
+       }
+  </style>
+</head>
+<body>
+    <div class="wrapper">
+        <form action="registration.php" method="post">
+            <div class="container">
+                <h2>Registration</h2>
+                
+                <div class="form">
+                    
+                    <label for="firstname"><b>First Name</b></label>
+                    <input type="text" name="firstname" id="" required>
+
+             
+                   <label for="lastname"><b>Last Name</b></label>
+                   <input type="text" name="lastname" required>
+
+                   <label for="surname">Surname</label>
+                   <input type="text" name="surname" required>
+        
+                   <label for="email"><b>Email</b></label>
+                   <input type="text" name="email" required>
+                   Gender <button type="submit"></button>
+
+        
+                   <label for="Phone"><b>Phone Number</b></label>
+                   <input type="text" name="Phone" required>
+            
+                   <label for="password"><b>Password</b></label>
+                   <input type="password" name="password" required>
+
+            <span title="click Signup to get your details Submitted"><input type="submit" name="create" value="Signup"></span>  
+                </div>
+                
+            
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
